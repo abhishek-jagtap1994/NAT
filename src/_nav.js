@@ -304,6 +304,18 @@ const _nav = [
         component: CNavItem,
         name: 'Role',
         to: '/roles',
+      },
+
+      {
+        component: CNavItem,
+        name: 'Banner',
+        to: '/banners',
+      },
+
+      {
+        component: CNavItem,
+        name: 'Event',
+        to: '/events',
       }
     ],
   },

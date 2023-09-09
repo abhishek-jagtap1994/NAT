@@ -7,6 +7,8 @@ import { Nav, Alert, PrivateRoute } from './_components';
 import Dashboard from './views/dashboard/Dashboard';
 import FormControl from './views/forms/form-control/FormControl';
 import Roles from './views/pages/forms/role_form';
+import Banner from './views/pages/forms/banner_form';
+import Event from './views/pages/forms/event_form';
 
 
 
@@ -45,6 +47,8 @@ function App() {
           <Route  path="/dashboard" name="dashboard" element={<Dashboard />} />
           <Route  path="/forms/form-control" name="dashboard" element={<FormControl/>} />
           <Route  path="/roles" name="roles" element={<Roles/>} />
+          <Route  path="/banners" name="banners" element={<Banner/>} />
+          <Route  path="/events" name="banners" element={<Event/>} />
           <Route path="*" name="Home" element={<Dashboard />} />
 
           <Route path="*" name="Home" element={<DefaultLayout />} />
